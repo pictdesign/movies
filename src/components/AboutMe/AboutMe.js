@@ -1,4 +1,4 @@
-import profile from '../../images/portrait.JPG';
+import profile from '../../images/portrait.jpg';
 import './AboutMe.css';
 
 const AboutMe = () => {
