@@ -1,0 +1,58 @@
+.header {
+  height: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+
+.header_isHome {
+  background-color: #f3c1f8;
+}
+
+.header__account {
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header__burger {
+  display: none;
+}
+
+@media (max-width: 999px) {
+  .header {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .header__account_place_nav {
+    display: none;
+  }
+
+  .header__navigation {
+    display: none;
+  }
+
+  .header__burger {
+    display: inline-block;
+    background: url('../../images/burger.svg') no-repeat;
+    background-position: center;
+    height: 44px;
+    width: 44px;
+    border: none;
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}

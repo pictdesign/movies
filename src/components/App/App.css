@@ -1,0 +1,8 @@
+.App {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}

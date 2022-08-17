@@ -1,0 +1,55 @@
+.movies {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+}
+
+.movies__more {
+  padding: 11px 60px;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  max-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.movies__preloader {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.movies__noresults {
+  padding: 15px 0;
+  text-align: center;
+  color: #a0a0a0;
+  font-size: 18px;
+  margin: 0;
+}
+
+.movies__error {
+  display: flex;
+  color: #ff4062;
+  padding: 15px;
+  font-size: 13px;
+  margin: 0;
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 15px 5px #f1f1f1;
+}
+
+@media (max-width: 767px) {
+  .movies__more {
+    max-width: 240px;
+  }
+}
