@@ -7,24 +7,30 @@ const Portfolio = () => {
       <ul className="portfolio__list">
         <li className="portfolio__item">
           <a
-            href="https://github.com/Yurikze/react-mesto-api-full"
+            href="https://github.com/pictdesign/react-mesto-api-full"
             className="portfolio__link"
+            target="_blank"
+            rel="noreferrer"
           >
             Одностраничное приложение
           </a>
         </li>
         <li className="portfolio__item">
           <a
-            href="https://yurikze.github.io/russian-travel/"
+            href="https://pict.design"
             className="portfolio__link"
+            target="_blank"
+            rel="noreferrer"
           >
             Адаптивный сайт
           </a>
         </li>
         <li className="portfolio__item">
           <a
-            href="https://github.com/Yurikze/premium-car"
+            href="https://pictdesign.github.io/russian-travel/"
             className="portfolio__link"
+            target="_blank"
+            rel="noreferrer"
           >
             Статичный сайт
           </a>

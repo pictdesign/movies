@@ -17,7 +17,11 @@ const AboutMe = () => {
         </p>
         <ul className="about-me__socials">
           <li className="about-me__social-item">
-            <a href="https://github.com/pictdesign" className="about-me__link">
+            <a href="https://github.com/pictdesign" 
+              className="about-me__link"
+              target="_blank"
+              rel="noreferrer"
+            >
               GitHub
             </a>
           </li>
