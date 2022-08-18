@@ -96,8 +96,8 @@ class MainApi {
 }
 
 export const mainApi = new MainApi({
-  // baseUrl: 'http://localhost:4000/api',
-  baseUrl: 'https://api.movie.students.nomoredomains.xyz/api',
+  // baseUrl: 'http://localhost:3000/api',
+  baseUrl: 'https://pictmovies.nomoredomains.xyz/api',
   headers: {
     Accept: 'application/json',
     'Content-Type': 'application/json',
